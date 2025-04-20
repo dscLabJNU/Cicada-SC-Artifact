@@ -1,0 +1,104 @@
+families:
+  resnet:
+    - name: resnet18_default
+      model: resnet18
+      weights: ResNet18_Weights.DEFAULT
+      type: official
+    - name: resnet34_default
+      model: resnet34
+      weights: ResNet34_Weights.DEFAULT
+      type: official
+    - name: resnet50_default
+      model: resnet50
+      weights: ResNet50_Weights.DEFAULT
+      type: official
+    - name: resnet101_default
+      model: resnet101
+      weights: ResNet101_Weights.DEFAULT
+      type: official
+    - name: resnet152_default
+      model: resnet152
+      weights: ResNet152_Weights.DEFAULT
+      type: official
+
+  vgg:
+    - name: vgg11_default
+      model: vgg11
+      weights: VGG11_Weights.DEFAULT
+      type: official
+    - name: vgg13_default
+      model: vgg13
+      weights: VGG13_Weights.DEFAULT
+      type: official
+    - name: vgg16_default
+      model: vgg16
+      weights: VGG16_Weights.DEFAULT
+      type: official
+    - name: vgg19_default
+      model: vgg19
+      weights: VGG19_Weights.DEFAULT
+      type: official
+
+  densenet:
+    - name: densenet121_default
+      model: densenet121
+      weights: DenseNet121_Weights.DEFAULT
+      type: official
+    - name: densenet169_default
+      model: densenet169
+      weights: DenseNet169_Weights.DEFAULT
+      type: official
+    - name: densenet201_default
+      model: densenet201
+      weights: DenseNet201_Weights.DEFAULT
+      type: official
+    - name: densenet161_default
+      model: densenet161
+      weights: DenseNet161_Weights.DEFAULT
+      type: official
+
+  mobilenet:
+    - name: mobilenet_v2_default
+      model: mobilenet_v2
+      weights: MobileNet_V2_Weights.DEFAULT
+      type: official
+    - name: mobilenet_v3_large_default
+      model: mobilenet_v3_large
+      weights: MobileNet_V3_Large_Weights.DEFAULT
+      type: official
+    - name: mobilenet_v3_small_default
+      model: mobilenet_v3_small
+      weights: MobileNet_V3_Small_Weights.DEFAULT
+      type: official
+
+  efficientnet:
+    - name: efficientnet_b0_default
+      model: efficientnet_b0
+      weights: EfficientNet_B0_Weights.DEFAULT
+      type: official
+    - name: efficientnet_b1_default
+      model: efficientnet_b1
+      weights: EfficientNet_B1_Weights.DEFAULT
+      type: official
+
+  squeezenet:
+    - name: squeezenet1_0_default
+      model: squeezenet1_0
+      weights: SqueezeNet1_0_Weights.DEFAULT
+      type: official
+    - name: squeezenet1_1_default
+      model: squeezenet1_1
+      weights: SqueezeNet1_1_Weights.DEFAULT
+      type: official
+
+  googlenet:
+    - name: googlenet_default
+      model: googlenet
+      weights: GoogLeNet_Weights.DEFAULT
+      type: official
+
+  alexnet:
+    - name: alexnet_default
+      model: alexnet
+      weights: AlexNet_Weights.DEFAULT
+      type: official
